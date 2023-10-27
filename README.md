@@ -14,13 +14,16 @@ My first, simple site created applying what I have learned in Angular courses.
 
 ### Front page with tabs 
 Content loaded from database
-<img width="934" alt="Tab with colaps" src="https://github.com/kristinakes/bookReco_site/assets/113669901/53f8b3a4-32be-44c0-99ca-0e8693bd8bad">
-<img width="928" alt="Front page" src="https://github.com/kristinakes/bookReco_site/assets/113669901/f475bc71-511c-47e6-b4f9-63c3d2f2620f">
+<img width="928" alt="Front page" src="https://github.com/kristinakes/BookReco/assets/113669901/c8803340-8c8c-4ab8-8083-e470decdb9e6">
+<img width="934" alt="Tab with colaps" src="https://github.com/kristinakes/BookReco/assets/113669901/2656e7b0-7d03-4068-81f7-13aa0547c8d6">
+
 
 ### Form page to provide recommendation 
 Data goes to database and then is fetched for front page content
-<img width="930" alt="Reco form" src="https://github.com/kristinakes/bookReco_site/assets/113669901/acad2dc5-8d2a-4e5f-b82f-63c8d5a86387">
+<img width="930" alt="Reco form" src="https://github.com/kristinakes/BookReco/assets/113669901/8afb3a10-d4e4-45d7-94f0-8109272752c5">
+
 
 ### Bookshop page
 Added to try out and apply lazy loading
-<img width="923" alt="Shop module" src="https://github.com/kristinakes/bookReco_site/assets/113669901/650eb316-ccfb-437e-9292-88204a251c75">
+<img width="923" alt="Shop module" src="https://github.com/kristinakes/BookReco/assets/113669901/78553f7a-ad9e-4c29-b71e-3c888bb60eb2">
+
