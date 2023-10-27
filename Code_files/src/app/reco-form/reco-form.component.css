@@ -1,0 +1,15 @@
+.new-reco {
+    padding: 30px;
+}
+
+form {
+    width: 80%;
+}
+
+mat-form-field {
+    width: 60%;
+}
+
+.recoform-button {
+    width: 20%;
+}

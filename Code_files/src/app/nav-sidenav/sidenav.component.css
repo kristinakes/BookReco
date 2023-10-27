@@ -1,0 +1,20 @@
+mat-nav-list {
+    min-height: fit-content;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+a:active {
+    color: lightblue;
+}
+
+.nav-caption {
+    display: inline-block;
+    padding-left: 6px;
+}

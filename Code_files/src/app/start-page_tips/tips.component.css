@@ -1,0 +1,9 @@
+mat-expansion-panel {
+    width: 70%;
+    background-color: #E0F2F1;
+}
+
+mat-expansion-panel-header {
+    /* background-color: #1DE9B6; */
+    background-color: #EA80FC;
+}

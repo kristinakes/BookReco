@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+}
+.table-section {
+    background-color: white;
+    margin: auto;
+    height: 300px;
+    width: 700px;
+    overflow-x: scroll;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th, td{
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: antiquewhite; 
+}
+
+.table-head{
+    width:max-content;
+    text-align: center;
+    background-color: #97d9e1;
+}
+
+.table-content {
+    width:max-content;
+    height: 200px;
+    overflow: scroll;
+}

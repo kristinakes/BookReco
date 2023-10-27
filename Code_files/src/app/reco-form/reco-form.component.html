@@ -1,0 +1,36 @@
+<section class="new-reco" fxLayout fxLayoutAlign="center">
+    <form fxLayout="column" fxLayoutAlign="space-evenly center" fxlayoutGap="10px" #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+        <mat-form-field>
+            <mat-label>Author</mat-label>
+            <input type="text" matInput name="author" text required ngModel>
+            <mat-error>Author should be entered</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Book title</mat-label>
+            <input type="text" matInput name="title" required ngModel>
+            <mat-error>Title should be entered</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Genre</mat-label>
+            <mat-select name="genre" required ngModel>
+                <mat-option *ngFor="let genre of genres" [value]="genre">{{ genre }}</mat-option>
+            </mat-select>
+            <mat-error>Select Genre</mat-error>
+
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Your Comments</mat-label>
+            <textarea matInput required name="comment" ngModel></textarea>
+            <mat-error>Your comment would help our readers.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Your Name</mat-label>
+            <input type="text" matInput name="name" required ngModel>
+            <mat-error>Please provide your name or nickname</mat-error>
+        </mat-form-field>
+        <button class="recoform-button" type="submit" mat-raised-button color="accent" [disabled]="f.invalid">Submit</button>
+    </form>
+</section>
+ 

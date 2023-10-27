@@ -1,0 +1,16 @@
+
+<section class="books-section" fxFlex fxLayout fxLayout.lt-sm="column" fxLayoutAlign="center center" fxLayoutGap="10px">
+    <mat-card class="book-card" *ngFor="let book of books">
+        <mat-card-header>
+          <mat-card-title-group>
+            <mat-card-title>{{ book.title}}</mat-card-title>
+            <mat-card-subtitle>{{ book.author}}</mat-card-subtitle>
+            <img mat-card-sm-image [src]="book.image" >
+          </mat-card-title-group>
+        </mat-card-header>
+        <mat-card-content>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium commodi eum maiores quibusdam obcaecati explicabo id amet veritatis, modi possimus, dolorem iusto, qui repudiandae sapiente reiciendis nesciunt corporis voluptates consequuntur?
+        </mat-card-content>
+       <button mat-raised-button color="accent">Add To Cart</button>
+    </mat-card>
+</section>

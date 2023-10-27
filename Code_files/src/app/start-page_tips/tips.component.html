@@ -1,0 +1,26 @@
+<mat-accordion fxFlex fxLayout="column" fxLayoutAlign="space-between center" fxLayoutGap="10px">
+    <h2 style="text-align: center;">Tips for you</h2>
+    <mat-expansion-panel  
+        *ngFor="let tip of tips" 
+        hideToggle 
+        (opened)="panelOpenState = true"
+        (closed)="panelOpenState = false"
+    >
+      <mat-expansion-panel-header >
+        <mat-panel-title>
+            {{tip.title | uppercase}}
+        </mat-panel-title>
+        <mat-icon *ngIf="!panelOpenState">
+            <span class="material-icons-outlined">arrow_circle_down</span>
+        </mat-icon>
+        <mat-icon *ngIf="panelOpenState">
+            <span class="material-icons-outlined">arrow_circle_up</span>
+        </mat-icon>
+      </mat-expansion-panel-header>
+      <ng-template matExpansionPanelContent class="panel-content">
+        <h3>{{tip.intro}}</h3>
+        <p>{{tip.details}}</p>
+      </ng-template>
+      
+    </mat-expansion-panel>
+  </mat-accordion>
