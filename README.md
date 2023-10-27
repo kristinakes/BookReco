@@ -2,7 +2,7 @@
 
 # About the project
 
-My first, simple site created applying what I have learned in Angular courses.
+My first, simple site created applying what I have learned on Angular and Typescript courses.
 
 ## Build with:
 * Angular
