@@ -4,7 +4,7 @@
 
 My first, simple site created applying what I have learned on Angular and Typescript courses.
 
-## Build with:
+## Built with:
 * Angular
 * Angular Materials
 * Firebase
